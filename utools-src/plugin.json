@@ -1,0 +1,24 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "ldoce.query",
+      "explain": "朗文词典",
+      "cmds": [
+        "朗文",
+        {
+          "type": "over",
+          "label": "查朗文词典",
+          "exclude": "/([^\\x00-\\xff]|[0-9])/"
+        }
+      ]
+    }
+  ],
+  "name": "zun0cdn6",
+  "pluginName": "朗文词典",
+  "description": "朗文词典",
+  "author": "kaze",
+  "homepage": null,
+  "version": "1.0.0"
+}
